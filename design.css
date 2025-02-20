@@ -1,0 +1,551 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    /* letter-spacing: 1px; */
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.popup{
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.438);
+    color: white;
+   z-index: 2;
+   position: absolute;
+   top: 0;
+   
+}
+.popup .sidebar ul{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.cross-button{
+    float: right;
+   
+}
+.popup .sidebar ul li{
+    padding: 10px 0;
+    padding-right: 20px;
+    list-style: none;
+}
+.popup .sidebar ul li a{
+text-decoration: none;
+color: white;
+}
+.sidebar{
+    /* width: 8%; */
+    display: inline-block;
+    height: 100%;
+    background-color: black;
+}
+.banner-wrapper {
+    margin-top: 60px;
+    padding: 70px 0;
+}
+
+.left-section {
+    width: 40%;
+    padding-top: 80px;
+}
+
+.right-img-section {
+    width: 60%;
+    position: relative;
+    height: 100%;
+
+}
+
+.left-section h1 {
+    font-size: 4rem;
+    font-family: "Oswald", serif;
+}
+
+.left-section p {
+    width: 75%;
+
+}
+
+.line-height {
+    line-height: 35px;
+}
+
+.img-wrapper {
+    max-width: 435px;
+    margin: 0 auto;
+
+}
+
+.img-wrapper img {
+    max-width: 100%;
+ 
+}
+
+.blue-square {
+    position: absolute;
+    top: -70px;
+    right: 0;
+    z-index: -1;
+    min-width: 50%;
+    min-height: 50%;
+    background-color: rgba(208, 228, 244, 255);
+
+}
+
+.dotted-square {
+    min-width: 50%;
+    min-height: 50%;
+    position: absolute;
+    bottom: -70px;
+    z-index: -1;
+    background-image: url("./assets/images/u_150.png");
+}
+
+.left-img-section {
+    min-width: 50%;
+}
+
+.right-services-section {
+    width: 100%;
+    position: relative;
+
+}
+
+.services-cards {
+    width: 105%;
+    position: absolute;
+    left: -5%;
+    bottom: -30%;
+}
+
+.services-wrapper .left-img-wrapper {
+    max-width: 100%;
+}
+
+.services-wrapper .left-img-wrapper img {
+    max-width: 100%;
+}
+
+.services-card h5 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: "Oswald", serif;
+}
+
+.services-card {
+    padding: 40px 20px;
+    border-radius: none;
+    background-color: white;
+}
+
+.services-card p {
+    line-height: 30px;
+}
+
+.dotted-line {
+    background-image: url("./assets/images/u_150.png");
+    min-height: 200px;
+    min-width: 40%;
+    position: absolute;
+    bottom: -70px;
+    z-index: -1;
+}
+
+.services-page {
+    position: relative;
+   
+}
+
+.services-page .blue-background {
+    min-height: 880px;
+    min-width: 70%;
+    background-color: rgba(208, 228, 244, 255);
+    position: absolute;
+    top: -170px;
+    right: 0;
+    z-index: -2;
+}
+
+.services-wrapper{
+    padding-top: 40px;
+}
+/* services-page ends here  */
+
+/* collaboration page starts here  */
+.collaboration-page {
+    margin-top: 200px;
+    padding-top: 90px;
+    position: relative;
+}
+
+
+.collaboration-wrapper .left-content {
+    width: 50%;
+    position: relative;
+}
+
+.collaboration-wrapper .right-content {
+    width: 50%;
+}
+
+.collaboration-wrapper .left-content h2 {
+    font-size: 4rem;
+    min-width: 125%;
+    font-family: "Oswald", serif;
+}
+
+.collaboration-wrapper .left-content .heading {
+    min-width: 100%;
+    margin-top: 60px;
+   
+
+}
+
+.collaboration-wrapper .right-content {
+    width: 50%;
+
+
+}
+
+.collaboration-wrapper .image-wrapper {
+    max-width: 100%;
+
+}
+
+.collaboration-wrapper .image-wrapper img {
+    max-width: 100%;
+}
+
+.collaboration-wrapper .image-wrapper::after {
+    content: " ";
+    background-image: url("./assets/images/u_150.png");
+    min-width: 200px;
+    min-height: 200px;
+    position: absolute;
+    bottom: -10%;
+    left: 45%;
+}
+
+.collaboration-page .bluee-background {
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-color: rgba(208, 228, 244, 255);
+
+}
+
+/* collaboration page ends here  */
+
+/* headline page starts here  */
+.headline-page {
+    margin-top: 100px;
+    position: relative;
+
+}
+
+.headline-card {
+    width: 50%;
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.headline-card .text p {
+    width: 70%;
+    line-height: 30px;
+}
+
+.headline-card .text h5 {
+    font-family: "Oswald", serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.icon {
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(155, 203, 241);
+    position: relative;
+    margin-right: 15px;
+}
+
+.icon img {
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.headline-cards .headline-card .text {
+    display: inline-block;
+
+}
+
+.headline-blue-background {
+    height: 460px;
+    min-width: 18%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: rgba(208, 228, 244, 255);
+}
+
+/* headline page ends here  */
+
+/* Brand section starts here  */
+.branding-page {
+    margin-top: 40px;
+
+}
+
+.branding-wrapper .left-section {
+    min-width: 55%;
+    padding-bottom: 40px;
+    min-height: 100%;
+
+
+
+}
+
+.branding-wrapper {
+    display: flex;
+    position: relative;
+
+}
+
+.brands {
+    max-width: 100%;
+    display: flex;
+    column-gap: 15px;
+    height: 100%;
+
+}
+
+.brands-col {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    min-height: 100%;
+    row-gap: 15px;
+
+}
+
+.brand {
+    max-width: 100%;
+    min-height: 33.33%;
+}
+
+.brand img {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.branding-wrapper .right-section {
+    padding-left: 20px;
+    padding-top: 80px;
+    width: 40%;
+}
+
+.branding-blue-background {
+    min-height: 120%;
+    min-width: 80%;
+    position: absolute;
+    left: 5%;
+    z-index: -1;
+    background-color: rgba(208, 228, 244, 255);
+}
+
+.branding-dotted-box {
+    min-height: 65%;
+    min-width: 26%;
+    background-image: url("./assets/images/u_150.png");
+    position: absolute;
+    right: 6%;
+    top: 45%;
+}
+
+.branding-title {
+    background-color: white;
+    max-width: 50%;
+    padding: 30px 0 30px 20px;
+    position: absolute;
+    right: 0;
+    bottom: 14%;
+}
+
+.branding-title h2 {
+    font-family: "Oswald", serif;
+    width: 80%;
+    font-size: 4rem;
+
+}
+
+/* Brand section ends here  */
+
+/* stylish section starts here  */
+.stylish-page{
+    margin-top: 150px;
+}
+.stylish-wrapper{
+    padding: 50px 0;
+  
+}
+.stylish-wrapper .left-section{
+    width: 50%;
+    position: relative;
+    
+}
+
+.stylish-wrapper .left-section .image-wrapper {
+    max-width: 100%;
+
+}
+
+.stylish-wrapper .left-section .image-wrapper img {
+    max-width: 100%;
+}
+
+.blue-box-stylish-top{
+    min-height: 60%;
+    min-width: 70%;
+    position: absolute;
+    top: 5%;
+    left: -5%;
+    background-color: rgba(208, 228, 244, 255);
+    z-index: -1;
+}
+
+
+.blue-box-stylish-bottom{
+    min-height: 40%;
+    min-width: 50%;
+    position: absolute;
+    bottom: -10%;
+    right: -10%;
+    background-color: rgba(208, 228, 244, 255);
+    z-index: -1;
+}
+
+.stylish-wrapper .right-section{
+    padding: 70px 0 0 100px;
+    width: 50%;
+}
+.stylish-wrapper .right-section h2{
+    font-family: "Oswald", serif;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.stylish-wrapper .right-section p{
+    line-height: 35px;
+}
+/* stylish section ends here  */
+
+/* Contact section starts  */
+.contact-page{
+    margin-top: 80px;
+    position: relative;
+}
+.contact-page .blue-background{
+    min-height: 50%;
+    background-color: rgba(208, 228, 244, 255);
+}
+
+.contact-wrapper {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    
+}
+.contact-wrapper .left-section{
+    box-shadow:0 4px 10px rgba(0,0,0,0.4);
+    border-radius: 8px;
+    padding: 30px 20px;
+    width: 40%;
+    height: 80%;
+    position: relative;
+    left: 60px;
+    z-index: 1;
+    background-color: white;
+    margin: auto 0;
+   
+}
+.contact-wrapper .left-section input{
+    border: none;
+    border-bottom: 2px solid black ;
+    width: 90%;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.contact-wrapper .left-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-wrapper .left-section form input:nth-of-type(3){
+    padding:  0 0 80px 10px;
+
+}
+.contact-wrapper .left-section h2{
+    font-family: "Oswald",serif;
+    font-size: 2.5rem;
+
+}
+button{
+    background-color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    color: white;
+    margin: auto;
+  
+}
+
+.contact-wrapper .right-section{
+  max-width: 40%;
+ 
+}
+.blue-background{
+    min-height: 250px;
+    background-color: rgba(208, 228, 244, 255);
+    min-width: 100%;
+    position: absolute;
+    top: 20%;
+    z-index: -2;
+
+}
+
+/* contact section ends  */
+/* footer section  */
+.blue-background-footer{
+    background-color: rgba(208, 228, 244, 255);;
+
+}
+.footer p{
+    width: 30%;
+   margin: 0 auto;
+   text-align: center;
+   padding: 50px 0;
+   
+}
+.footer .black-background{
+    background-color: black;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+   
+}
+/* footer section  */
